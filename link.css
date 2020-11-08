@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+}
+body{
+    color: white;
+}
+#navbar{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: teal;
+    font-family: 'Roboto',sans-serif;
+    height: 5%;
+    color: white;
+}
+#navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+#navbar-items a:hover{
+    color:rgb(76, 223, 215);
+}
+#navbar-items li{
+    list-style: none;
+    margin-top: 6%;
+}
+#navbar-items li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+#mycarousel{
+    height: 500px;
+    width: auto;
+    overflow: hidden;
+}
+.carousel-container{
+    max-height: 60%;
+    max-width: 100%;
+}
+.item img{
+    width: 1550px !important;
+    height: 400px !important;
+    background-size: contain;
+}
+.sign-up{
+    height: auto;
+    width: auto;
+    border: 5px solid teal;
+    border-radius: 10px;
+}
+.form-container{
+    font-family: 'Roboto',sans-serif;
+}
+#featured-head{
+    font-size: 29px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+#trending-head{
+    font-size: 29px;
+}
+.card-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    height: 25em;
+    margin-right: 20px;
+    background-color: teal;
+    color: white;
+    margin-top: 0;
+}
+.course-container hr{
+    border-top: 4px solid teal;
+}
+.card-container a{
+    color: white;
+}
+.card-container:hover{
+    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+@-webkit-keyframes shadow-pop-tr {
+    0% {
+      -webkit-box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+              box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: 1px -1px #fff, 2px -2px #fff, 3px -3px #fff, 4px -4px #fff, 5px -5px #fff, 6px -6px #fff, 7px -7px #fff, 8px -8px #fff;
+              box-shadow: 1px -1px #fff, 2px -2px #fff, 3px -3px #fff, 4px -4px #fff, 5px -5px #fff, 6px -6px #fff, 7px -7px #fff, 8px -8px #fff;
+      -webkit-transform: translateX(-8px) translateY(8px);
+              transform: translateX(-8px) translateY(8px);
+    }
+  }
+  @keyframes shadow-pop-tr {
+    0% {
+      -webkit-box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+              box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: 1px -1px #fff, 2px -2px #fff, 3px -3px #fff, 4px -4px #fff, 5px -5px #fff, 6px -6px #fff, 7px -7px #fff, 8px -8px #fff;
+              box-shadow: 1px -1px #fff, 2px -2px #fff, 3px -3px #fff, 4px -4px #fff, 5px -5px #fff, 6px -6px #fff, 7px -7px #fff, 8px -8px #fff;
+      -webkit-transform: translateX(-8px) translateY(8px);
+              transform: translateX(-8px) translateY(8px);
+    }
+  }
+  
+  
+.card-container img{
+    width: 100%;
+    height: 50%;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+}
+form{
+    height: 100%;
+    color: black;
+    border-radius: 8px;
+}
+form input{
+    display: inline-block;
+    width: 55%;
+    border-radius: 8px;
+    color: black;
+    font-size: 20px;
+}
+form label{
+    font-size: 20px;
+}
+.sign-bg h1{
+    height: 100%;padding: 0;
+    margin: 0;
+    border-radius: ;
+    color: white;
+}
+.sign-bg{
+    background-color: teal;
+    border-radius: 8px;
+    color: white;
+}
+footer{
+    color: white;
+    background-color: darkgrey;
+}
+footer ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
